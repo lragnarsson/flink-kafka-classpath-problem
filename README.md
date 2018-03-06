@@ -15,3 +15,5 @@ In order to reproduce the problem do the following:
 Expected result:
 
 Failed job with the following exception: **java.lang.ClassNotFoundException: se.ragnarsson.lage.MyTimestampExtractor**
+
+To build a new fat-jar, just run sbt assembly in the project root. A prebuilt fat-jar is already included in the repo.
