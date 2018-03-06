@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  flink:
+    build: .
+    depends_on:
+      - kafka
+    ports:
+      - '8081:8081'
+  kafka:
+    image: johnnypark/kafka-zookeeper:1.0.0
+    ports:
+      - '9092:9092'  # Kafka broker
+    environment:
+      ADVERTISED_HOST: kafka
