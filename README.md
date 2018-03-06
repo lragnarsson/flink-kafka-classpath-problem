@@ -2,9 +2,9 @@
 
 Docker and docker-compose are needed to test this.
 
-In order build a job jar, an IDE like IntelliJ IDEA with the Scala plugin is also needed
+In order build a job jar, sbt 1.x is also needed.
 
-In order to reproduce the problem do the following:
+To reproduce the problem do the following:
 
     1. cd docker
     2. docker-compose build
