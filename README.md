@@ -1,7 +1,8 @@
 # Class loading for Flink Kafka Source Timestamp Extractor
 
 Fairly new versions of docker, docker-compose are needed to test this.
-In order build a job jar, an IDE like IntelliJ IDEA with the SBT plugin is also needed
+
+In order build a job jar, an IDE like IntelliJ IDEA with the Scala plugin is also needed
 
 In order to reproduce the problem do the following:
 
