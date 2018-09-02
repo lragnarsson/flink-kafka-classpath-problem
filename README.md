@@ -1,4 +1,8 @@
 # Class loading for Flink Kafka Source Timestamp Extractor
+This turned out to be a bug introduced in Flink 1.4.1 but fixed in 1.4.2
+https://issues.apache.org/jira/browse/FLINK-8741
+
+Original StackOverflow question: https://stackoverflow.com/questions/49112172/class-loading-for-flink-kafka-source-timestamp-extractor
 
 Docker and docker-compose are needed to test this.
 
